@@ -1,0 +1,61 @@
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+
+form{
+
+    padding: 50px;
+    background-color: lightgrey;
+    border-radius: 20px;
+
+}
+
+#amount,.dropdownds,button{
+    width: 100%;
+}
+
+.dropdownds{
+    display: flex;
+    justify-content: space-between;
+
+}
+img{
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.Dromfrom,.Dropto{
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+select{
+    margin: 0;
+    height: auto;
+    width: auto;
+    
+}
+
+input{
+    outline: none;
+    border: none;
+}
+.fromto{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
